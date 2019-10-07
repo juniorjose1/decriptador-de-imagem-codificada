@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Teste Enext</title>
+    </head>
+    <body>   
+        <div style="text-align:center;">
+            <h1>
+                Decriptografar Imagem
+            </h1>
+            <img width="150" alt="Logo API" src="logo/logo.png">
+        </div>
+        <br>
+        <hr>
+        <div class="container col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Decriptografando</h3>
+                </div>
+                <div class="card-body">
+                    <form action='file/upload' method='post' encType="multipart/form-data">
+                        <div class="form-group">
+                            <label for="imagemEmTexto">Anexe o Arquivo que contém a imagem Encodada e Encriptada em Texto:</label>
+                            <form action='file/upload' method='post' encType="multipart/form-data">
+                            <input type="file" name="file" />
+                        </div>
+                        <div class="form-group">
+                            <label for="chave">URL Chave:</label>
+                            <input type="text" name="url" class="form-control"/>
+                        </div>
+                        <form action='descriptografar' method='post' encType="multipart/form-data">
+                            <input type='submit' class="btn btn-primary" value="Decriptografar !" />
+                        </form>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
