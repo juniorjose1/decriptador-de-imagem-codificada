@@ -12,5 +12,7 @@
   <p>Foi utilizado NodeJS em que foi criado um arquivo server.js para representar um servidor que faz a comunicação entre o Back-end, que seria os arquivos .js com o Front-end que seria o arquivo .html para que funcione corretamente e seja mostrado para o usuário de uma forma estilizada e interativa.</p>
   <p>Foi utilizado a biblioteca do Bootstrap para auxiliar na estilização da página HTML.</p>
 
+<p>Tela Principal:</p>
+
 <p><img src="http://alejunqueira.com.br/img/tela-enext.png" width="600"></p>
 
