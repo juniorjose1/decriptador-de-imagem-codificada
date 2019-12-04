@@ -13,4 +13,4 @@ TECNOLOGIAS</p>
   <p>Foi utilizado a biblioteca do Bootstrap para auxiliar na estilização da página HTML.</p>
   
 <img src="http://alejunqueira.com.br/img/tela-enext.png" width="600">
-<p style="text-align:center;">Tela Principal</p>
+
