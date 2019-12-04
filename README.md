@@ -1,17 +1,16 @@
 # PROJETO
 
-Decriptador de Imagem encodada em base64 e encriptada com AES 256 ECB
+FUNCIONAMENTO
+  O projeto foi desenvolvido com o propósito de decriptar uma imagem encodada em base64 e encriptada com AES 256 ECB.
+  O arquivo decriptar.js tem a função de fazer esse processo de decriptação utilizando a chave fornecida, e essa chave poderia ser qualquer link dos produtos do site https://www.arezzo.com.br/ da categoria Sapato, então precisava testar todos os links dos produtos dessa categoria, até que o link correto decriptasse a imagem. 
+  Então para isso, foi utilizado um Web crawler, em que captura todos os links dos produtos de forma automática e testa no código do arquivo decriptar.js, e se caso fosse o link correto, iria ser gerado a imagem decriptada, que no caso é a bem_vindo_enext.png
+  
+RESULTADO
+  Foi criado uma página HTML para que o usuário anexasse a imagem Encodada e Encriptada em Texto, e inserisse a Chave, que no caso seria o link que foi encontrado utilizando o Web crawler, e então o sistema decripta a imagem gerando-a em uma pasta do projeto.
 
-Task 1 e Task 3 - Está no arquivo "task3.js", este arquivo possui o webcrawler que itera por todas as páginas do site, e vai testando todas as URLs para gerar a imagem correta, e ele identifica se a imagem é verdadeira pelo tamanho do arquivo, pois verifiquei que os arquivos incorretos gerados, eram formado por alguns bytes apenas... então coloquei uma regra para que se gerasse um arquivo maior que mil bytes para salvar a imagem e forçei um erro, para parar justamente na URL correta.
-
-Task 4 - São os arquivos "final.js", "decriptar.js", server.js" e "public/index.html".
-server.js é o arquivo que usei para criar um servidor, e é onde fiz a comunicação entre o back e front, ou seja, é onde os arquivos "final.js" e "decriptar.js" "conversam" com "index.html".
-Separei os códigos da função Decriptar com os códigos da função do webcrawler para poder ter um uso mais independente do decriptar para ser chamado no arquivo "server.js".
-
-Pasta "uploads" contém os arquivos que os usuários fazem upload pela pagina web do index.html
-
-O Arquivo texto.txt é a imagem para teste que você nos enviou que está encodada e encriptada.
-
-Dentro dos arquivos ".js" fiz mais alguns comentários, e em relação a bibliotecas também.
-
-No arquivo html, usei Bootstrap no CSS. 
+TECNOLOGIAS
+  Foi utilizado NodeJS em que foi criado um arquivo server.js para representar um servidor que faz a comunicação entre o Back-end, que seria os arquivos .js com o Front-end que seria o arquivo .html para que funcione corretamente e seja mostrado para o usuário de uma forma estilizada e interativa.
+  Foi utilizado a biblioteca do Bootstrap para auxiliar na estilização da página HTML
+  
+<img src="http://alejunqueira.com.br/img/tela-enext.png" width="600">
+Tela Principal
