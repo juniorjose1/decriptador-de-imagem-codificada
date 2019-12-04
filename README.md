@@ -9,7 +9,7 @@
   <p>Foi criado uma página HTML para que o usuário anexasse a imagem Encodada e Encriptada em Texto, e inserisse a Chave, que no caso seria o link que foi encontrado utilizando o Web crawler, e então o sistema decripta a imagem gerando-a em uma pasta do projeto.</p>
 
 ### TECNOLOGIAS
-  <p>Foi utilizado NodeJS em que foi criado um arquivo server.js para representar um servidor que faz a comunicação entre o Back-end, que seria os arquivos .js com o Front-end que seria o arquivo .html para que funcione corretamente e seja mostrado para o usuário de uma forma estilizada e interativa.</p>
+  <p>Foi utilizado NodeJS em que foi criado um arquivo server.js para representar um servidor que faz a comunicação entre o Back-end, que seria os arquivos .js com o Front-end que seria o arquivo index.html que se encontra na pasta public, para que funcione corretamente e seja mostrado para o usuário de uma forma estilizada e interativa.</p>
   <p>Foi utilizado a biblioteca do Bootstrap para auxiliar na estilização da página HTML.</p>
 
 <p>Tela Principal:</p>
