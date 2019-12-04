@@ -1,4 +1,4 @@
-# PROJETO
+# PROJETO FINALIZADO
 
 ### FUNCIONAMENTO
   <p>O projeto foi desenvolvido com o propósito de decriptar uma imagem encodada em base64 e encriptada com AES 256 ECB.</p>
